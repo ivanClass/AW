@@ -1,0 +1,72 @@
+#formComentario {  
+   background-color: #816186;
+   width: 465px;  
+   padding: 30px;  
+   margin: 20px auto;  
+   border-radius: 15px;     
+}
+ 
+#formComentario input,    
+#formComentario textarea,  
+#formComentario label {  
+   font-size: 1.2em;  
+   margin-bottom: 2px;
+   font-family: Arial;
+}  
+ 
+#formComentario input,  
+#formComentario textarea {  
+   width: 450px;
+   background: #fff;
+   border: 0;
+   border-radius: 5px;
+   margin-bottom: 25px;  
+   padding: 5px;
+
+}  
+ 
+#formComentario input:focus,  
+#formComentario textarea:focus {  
+   background-color: #E5E6E7;
+}  
+ 
+#formComentario textarea {  
+   height: 170px;
+   max-width: 450px;
+   max-height: 200px;
+  
+}  
+ 
+#formComentario #submit {  
+   width: 450px;  
+   color: #BFD7C1;  
+   border: none;  
+   background-color: #6EA070;
+
+}  
+ 
+#formComentario #submit:hover {  
+   background-color: #045FB4;  
+   color: #6EA070;
+}
+ 
+input:required, textarea:required {  
+   box-shadow: none;
+}
+ 
+#formComentario .required {  
+   font-weight:bold;  
+   color: #E5E6E7;      
+}
+
+#comentarios {
+	border-style: outset;
+	overflow: auto;
+	max-height: 800px;
+
+}
+
+.comentario {
+	border-style: outset;
+	padding: 5px;
+}

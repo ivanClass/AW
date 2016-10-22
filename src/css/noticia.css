@@ -1,0 +1,131 @@
+#vnoticia {
+	display: block;
+}
+
+#colR{
+	max-width: 1000px;
+}
+.post {
+	background-color: rgba(103, 60, 150, 0.42);
+	margin: 5px;
+	border-radius: 5px;
+	overflow: auto;
+}
+.thumbnail {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	font-color: white;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+   font-size: 0.9em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+p {
+	text-align: justify;
+}
+
+.postExt {
+	border-style: outset;
+	margin-left: 20px;
+	margin-bottom: 140px;
+	margin-top: 40px;
+	border-radius: 10px;
+	width: 80%;
+}
+
+#formComentario {  
+   background-color: #816186;
+   width: 465px;  
+   padding: 30px;  
+   margin: 20px auto;  
+   border-radius: 15px;     
+}
+ 
+#formComentario input,    
+#formComentario textarea,  
+#formComentario label {  
+   font-size: 1.2em;  
+   margin-bottom: 2px;
+   font-family: Arial;
+}  
+ 
+#formComentario input,  
+#formComentario textarea {  
+   width: 100%;
+   background: #fff;
+   border: 0;
+   border-radius: 5px;
+   margin-bottom: 25px;  
+   padding: 5px;
+
+}  
+ 
+#formComentario input:focus,  
+#formComentario textarea:focus {  
+   background-color: #E5E6E7;
+}  
+ 
+#formComentario textarea {  
+   height: 170px;
+   max-width: 450px;
+   max-height: 200px;
+  
+}  
+ 
+#formComentario #submit {  
+   color: #BFD7C1;  
+   border: none;  
+   background-color: #6EA070;
+
+}  
+ 
+#formComentario #submit:hover {  
+   background-color: #045FB4;  
+   color: #6EA070;
+}
+ 
+input:required, textarea:required {  
+   box-shadow: none;
+}
+ 
+#formComentario .required {  
+   font-weight:bold;  
+   color: #E5E6E7;      
+}
+
+#comentarios {
+	border-style: outset;
+	overflow: auto;
+	max-height: 800px;
+
+}
+
+.comentario {
+	border-style: outset;
+	padding: 5px;
+}
+
+.imgNoticia {
+   width: 100%;
+}
+
+.imgComent {
+   float: left;
+}
+
+.datosComent {
+}
+
+.imgNoti {
+   margin-right: 10px;
+   width: 350px;
+}

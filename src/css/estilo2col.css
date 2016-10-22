@@ -1,0 +1,38 @@
+body {
+	margin: 0px;
+	background-color: #795198;
+	margin: 0 auto 0 auto;
+	height: 100%;
+	background-image: url("../img/fondo.png");
+	background-repeat: repeat;
+
+
+}
+
+#contenedor {
+	font-family: Sans-serif;
+	line-height: 1.5em;
+    width: 80%;
+    height: 1%;
+    overflow: hidden;
+    margin-top: 60px;
+    margin: 0 auto;
+    padding: 60px 0;
+    background-color: #BDC8EF;
+    min-height: 860px;
+    min-width: 900px;
+}
+
+
+#colL {
+	margin-top: 20px;
+	width: 25%;
+	float: left;
+}
+
+#colR {
+	margin-top: 20px;
+	width: 70%;
+	margin-left: 5%;
+	float: left;
+}

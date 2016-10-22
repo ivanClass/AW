@@ -1,0 +1,217 @@
+#left_sidebar{
+	background-color:#313165;
+	float: left;
+	width: 25%;
+	height: 100%;
+	height: 1000px;
+	padding-right: 0px;
+}
+body{
+	
+	min-width: 1500px;
+}
+#content{
+	float: left;
+	width: 75%;
+	background-color:#A374CD;
+	height:1000px;
+	
+}
+#menu{
+
+	width: 100%;
+	margin-top: 50px;
+	margin-right: 0px;
+}
+.categoria a{
+	color: inherit;
+	text-decoration: inherit;
+}
+
+#pulsada{
+	background-color: #A374CD;
+}
+
+.selected{
+	background-color: #A374CD;
+}
+.categoria{
+	width: 100%;
+		margin-right: 0px;
+
+}
+.categoria td{
+		margin-right: 0px;
+
+	width: 100%;
+	padding-top: 15px;
+	padding-down: 15px;
+	font-size: 1.25 em;
+	font-weight: bold;
+	color: white;
+	padding-left: 30px;
+	
+}
+.categoria td:hover{
+		background-color: #A374CD;
+
+}
+#cambiar_titulo{
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+#listas h1{
+	margin-bottom: 0px;
+}
+
+
+#listas tr{
+	border-top: 1px solid black;
+}
+.celda_foto{
+	width: 15%;
+}
+.poster{
+	width: 100%;
+}
+.celda_titulo{
+	text-align: center;
+}
+.celda_puntuacion{
+	width: 10%;
+	text-align: center;
+
+	
+}
+.celda_actions{
+	width: 20%;
+
+}
+
+.celda_actions img{
+	
+	float: right;
+	margin-right: 10%;
+}
+#anadir{
+	float: right;
+
+}
+form{
+	float:left;
+}
+#listas{
+	width: 80%;
+	clear:both;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+#listas h1{
+	margin-bottom: 10px;
+}
+#filtrado{
+	float: right;
+	clear: right;
+	display: inline;
+	
+}
+
+.poster{
+	width:70%;
+}
+.edit{
+	margin-right: 5px;
+}
+.contact{
+	margin-left: 10px;
+}
+
+#noticias img{
+	z-index: -2;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+   	border-radius: 3px;
+
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #313165;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+	overflow: auto;
+	border-radius: 3px;
+    border: 1px solid #888;
+    /*width: 50%;*/ /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#edit_form{
+	width: 100%;
+	text-align: center;
+	background-color:#A374CD;
+	font-size: 1.5em;
+}
+#edit_form legend{
+	text-align: left;
+}
+
+#table-scroll {
+  height: 300px;
+  overflow:auto;  
+  margin-top:20px;
+  width: 100%;
+}
+
+#listas table{
+	
+	
+	margin-top: 10px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	clear: both;
+	width:100%;
+	background-color: white;
+	font-size: 1.5em;
+	margin-bottom: 50px;
+	overflow: auto;
+	max-height: 300px;
+}
+
+
+.modal-header,
+.btn-custom {
+	background: #A374CD;
+	color: #FFF;
+	/* margin-right: 10px; */
+}
+#send_btn {
+	width: 100%;
+}
+
+#receptorBlock { display: inline-block; }

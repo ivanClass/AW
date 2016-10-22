@@ -1,0 +1,55 @@
+
+#titulo{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#listas table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	width:100%;
+	background-color: white;
+	font-size: 1.25em;
+	margin-bottom: 50px;
+}
+
+#listas tr{
+	border-top: 1px solid black;
+}
+
+.celda_foto{
+	width: 15%;
+}
+
+.celda_titulo{
+	width: 55%;
+		text-align: center;
+
+}
+#follow-button, #unfollow-button{
+	width: 10%;
+	float: right;
+	margin-bottom: 10px
+	
+}
+
+#follow-button:hover{
+	cursor: pointer;
+}
+.celda_puntuacion{
+	text-align: center;
+}
+.celda_anio{
+	width: 10%;
+}
+.celda_foto{
+	width: 10%;
+}
+.celda_foto img{
+	width: 100%;
+}
+#peliculas{
+	overflow-y: auto;
+	width: 100%;
+	height: 700px;
+}

@@ -1,0 +1,71 @@
+#foto{
+	margin-top: 5%;
+	border-style: ridge;
+	max-width: 100px;
+	max-height: 100px;
+}
+.col{
+	background-color: white;
+	border-style: solid;
+	width: 23.5%;
+	height: 600px;
+	padding: 10px;
+}
+#colIzq{
+	float: left;
+}
+#colCen{
+	display: inline-block;
+	text-align: center;
+}
+#colDer{
+	float: right;
+	width: 46.44%;
+	overflow-x: scroll;
+}
+
+.botones li {
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 30%;
+}
+.botones li button{
+	font-size: 100%;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+	width: 100%;
+}
+.botones li button:hover {
+	background-color: #4CAF50; /* Verde claro */
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.contenidoDerecho {
+	display: none;
+}
+
+#listaCamposForm {
+	list-style: none;
+}
+.item {
+	margin-top: 10px;
+}
+#fieldset{
+	background-color:#ddd;
+	border:2px solid green;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    -moz-box-shadow: 6px 6px 12px #888;
+    -webkit-box-shadow: 6px 6px 12px #888;
+    box-shadow:6px 6px 12px #888;
+}
+.textField{
+	width: 50%;
+}
+#textAreaDescripcion{
+	height: 100px;
+	width: 75%;
+}

@@ -1,0 +1,125 @@
+article {
+	border-style: outset;
+	margin-left: 10px;
+	padding: 20px;
+	background-color: white;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	padding: 30px;
+	overflow: hidden;
+	position: relative;
+}
+
+.imgNoti {
+	float: left;
+	margin-right: 10px;
+	width: 350px;
+}
+
+.enlaceSeguirLey {
+	float: right;
+}
+
+header {
+	color: blue;
+}
+
+.thumbnail {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	font-color: white;
+	float: left;
+}
+
+.post {
+	background-color: rgba(103, 60, 150, 0.42);
+	margin: 5px;
+	border-radius: 5px;
+	overflow: auto;
+
+}
+
+a {
+	text-decoration: none;
+
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.enlNot {
+	position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.postExt {
+	border-style: outset;
+	margin-left: 5px;
+	margin-bottom: 140px;
+	margin-top: 40px;
+	border-radius: 10px;
+}
+
+.pagination {
+    height: 36px;
+    margin: 15px 0;
+	
+}
+.pagination ul {
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    margin-bottom: 10px;
+	margin-left:92px;
+	box-shadow: 0 2px 5px #666666;
+}
+.pagination li {
+    display: inline;
+}
+.pagination a {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    float: left;
+    line-height: 34px;
+    padding: 0 14px;
+    text-decoration: none;
+	cursor:pointer;
+}
+.pagination a:hover, .pagination .active a {
+    color:#2d2d28;
+	outline:0;
+	text-decoration:none;
+	font-weight: bold;
+}
+.pagination .active a {
+    color: #999999;
+    cursor: default;
+}
+.pagination .disabled a, .pagination .disabled a:hover {
+    background-color: transparent;
+    color: #999999;
+    cursor: default;
+}
+.pagination li:first-child a {
+    border-left-width: 1px;
+    border-radius: 3px 0 0 3px;
+}
+.pagination li:last-child a {
+    border-radius: 0 3px 3px 0;
+}
+.pagination-centered {
+    text-align: center;
+}
+.pagination-right {
+    text-align: right;
+}

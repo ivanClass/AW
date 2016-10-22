@@ -1,0 +1,72 @@
+article {
+	border-style: outset;
+	margin-left: 10px;
+	padding: 20px;
+	background-color: white;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+img {
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+}
+
+p {
+	text-align: justify;
+}
+
+.enlaceSeguirLey {
+	float: right;
+}
+
+header {
+	color: blue;
+}
+
+.thumbnail {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	font-color: white;
+}
+#contacto input{
+	border-top: 10%;
+}
+#message{
+	height: 200px;
+	width: 90%;
+}
+.row{
+	margin-top: 40px;
+}
+
+.post {
+	background-color: rgba(103, 60, 150, 0.42);
+	margin: 5px;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.enlNot {
+	float: right;
+}
+
+.postExt {
+	border-style: outset;
+	margin-left: 5px;
+	margin-bottom: 140px;
+	margin-top: 40px;
+	border-radius: 10px;
+}

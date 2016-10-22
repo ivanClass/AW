@@ -1,0 +1,154 @@
+
+body{
+	min-width: 1500px;
+}
+
+#listas{
+	width: 70%;
+	float:left;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+.poster{
+	width:70%;
+}
+#titulo{
+	float: left;
+}
+#anadir{
+	float: right;
+		margin-left: 50%;
+}
+
+
+#barra_superior{
+	overflow: auto;
+	width: 100%;
+	
+}
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	overflow-y: auto;
+
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+#modalContent{
+	
+	overflow-y: auto;
+	max-height: 70%;
+	
+	
+	
+}
+#noticias img{
+	z-index: -2;
+}
+.modalDialog > div {
+	width: 90%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;*/
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+.close {
+    background: #ff00ff;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: 5px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #00d9ff;
+}
+#left_sidebar{
+	float:left;
+	width: 15%;
+	height: 300px;
+	margin-top: 100px;
+	margin-left: 10px;
+	border-style: outset;
+	border-radius: 10px;
+}
+
+#left_sidebar ul{
+	list-style:none;
+	color: black;
+}
+#left_sidebar li{
+	margin-top: 30px;
+	color: black;
+}
+#left_sidebar li a{
+	color: inherit;
+	text-decoration: inherit;
+	font-weight: bold;
+	font-size: 150%;
+}
+#addinfo{
+	
+	
+	margin-top: 10px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	clear: both;
+	width:100%;
+	background-color: white;
+	font-size: 1.25em;
+	text-align:center;
+}
+
+#addinfo td, #addinfo th{
+	text-align: center;
+	
+	
+}
+
+
+#peliculas{
+	overflow-y: auto;
+	height: 600px;
+}
+#poster_header{
+	width:15%;
+}
+.poster_imdb{
+	width:40%;
+}
+
+#celda_bottones{
+	background-color:transparent;
+}
+
+#guardar{
+	float: right;
+}

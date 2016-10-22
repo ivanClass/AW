@@ -1,0 +1,42 @@
+#datosUsu {
+	clear: left;
+}
+
+#colL{
+	border-style: outset;
+	margin-top: 40px;
+}
+
+#colR{
+	width: 60%;
+}
+
+#divfoto {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.fotoNoticia {
+	float: left;
+	width: 50%;
+	max-height: 200px;
+}
+
+.noticia {
+	border-style: outset;
+	overflow: hidden;
+}
+
+#addNoticia {
+	float: right;
+}
+
+.col {
+	margin-left: 30px;
+
+}
+
+#botones {
+	text-align: right;
+}

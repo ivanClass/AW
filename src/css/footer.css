@@ -1,0 +1,21 @@
+.enlFoot {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	margin: 50px;
+	position: relative;
+	top: 21px;
+	left: 80px;
+}
+
+.enlFoot:hover {
+	text-decoration: underline;
+}
+
+#footer{
+	width: 100%;
+    height: 60px;
+    background-color: #313165;
+    position: fixed;
+    bottom: 0;
+}

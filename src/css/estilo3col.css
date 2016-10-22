@@ -1,0 +1,45 @@
+﻿body{
+	margin: 0px;
+	background-color: #795198;
+	background-image: url("../img/fondo.png");
+	background-repeat: repeat;
+	height: 100%;
+}
+
+#contenedor{
+	font-family: Sans-serif;
+	line-height: 1.5em;
+    width: 80%;
+    height: 1%;
+    overflow: hidden;
+    margin-top: 60px;
+    margin: 0 auto;
+    padding: 60px 0;
+    background-color: #BDC8EF;
+    min-height: 860px;
+    min-width: 900px;
+}
+
+
+#colL{
+	float: left;
+	width: 20%;
+	word-wrap: break-word;
+	height: 100%;
+	
+}
+
+#colM{
+	float: left;
+	width: 20%;
+	word-wrap: break-word;
+	height: 100%;
+}
+
+#colR{
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+
+

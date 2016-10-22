@@ -1,0 +1,131 @@
+
+
+
+.play{
+ 
+ width: 0px;
+  height: 0px;
+  border-top: 20px solid blue;
+  border-bottom: 20px solid blue;
+  border-left: 20px solid pink;
+
+
+}
+
+.puntos{
+	text-align: center;
+}
+
+#noticias{
+	background-color: blue;
+	width: 70%;
+	height: 350px;
+	margin:auto;
+	display:block;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	position: relative;
+	border-radius: 10px;
+
+	}
+#noticias:hover{
+	cursor: pointer;
+}
+#trivial p{
+
+	text-align: center;
+	font-size: 1.5em;
+}
+#trivial form{
+	font-size: 1.4em;
+	margin-left: 30px;
+}
+
+#trivial input{
+	margin-top: 10px;
+	font-size: 1.25em;
+}
+#trivial h1{	text-align: center;
+}
+#noticias h1{
+	position: absolute;
+	bottom: 0px;
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#central{
+	float:left;
+	width: 70%;
+	min-height: 500px;
+	display: inline-block;
+	display:block;
+	margin-top: 40px;
+
+}
+#trivial{
+	background-color: #FF957A;
+	float:left;
+	width: 23%;
+	min-height: 400px;
+	margin-top: 150px;
+	border-radius: 10px;
+	border-style: outset;
+	
+	
+	}
+#jugar{
+	float:right;
+	font-size: 1 em;
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+ .rankings{
+	width: 33%;
+	display: inline;
+	margin-top: 10%;
+	background-color: white;
+	font-size: 1.5em;
+    border-collapse: collapse;
+	border-radius: 10px;
+	margin-bottom: 70px;
+	padding-left: 10px;
+	overflow: hidden;
+	padding-right: 10px;
+}
+
+} 
+#listas{
+	width: 80%;
+	clear:both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	display:block;
+	margin-bottom: 70px;
+
+}
+#rk_listas{
+	float: right;
+	margin-right:10%;
+	
+	}
+
+tbody tr:hover{
+	background-color: #E0E0E0;
+}
+.rankings tr, .rankings td{
+	border-top: 1px solid black;
+	border-collapse: collapse;
+	height: 2.5em;
+	width: 25%;
+	
+}
+
+ #rk_users{
+	float:left;
+	width: 40%;
+	margin-left:10%;
+
+} 

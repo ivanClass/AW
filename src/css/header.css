@@ -1,0 +1,280 @@
+ #header a{
+	color: inherit;
+	text-decoration: inherit;
+}
+#header{
+	z-index: -1;
+}
+#logo{
+	margin-bottom:0px;
+	margin-left: 0px;
+	position: relative;
+	bottom: 15px;
+	right: 10px;
+	margin-right: 50px;	
+	float : left;
+	clear: left;
+}
+
+#menuHeader{
+	width: 100%;
+    height: 60px;
+    background-color: #313165;
+    position: fixed;
+    top: 0;
+    color: white;
+	z-index: 1;
+}
+
+.liMe {
+	color: white;
+}
+
+/* Oculta los submenus */
+ul.dropdown ul.dropdown-content {
+	display: none;
+}
+
+/* Muestra el menu */
+ul.dropdown li.menu:hover ul.dropdown-content {
+	display: block;
+	background-color: #2B7ADC;
+	z-index: 1;
+}
+
+
+/* Muestra el menú en una única fila */
+
+ul.dropdown li{
+	
+	display: inline-block;
+	text-align: left;
+	cursor:pointer;
+
+	width: 10%;
+}
+
+ul.dropdown li .liMe{
+	width: 100%;
+}
+.navbar {
+    margin-bottom: 0px !important;
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#8500e6 100%) !important;;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.menu{
+	font-size: 1.7em;
+}
+
+/* Los menus se muestran sobre el contenido de la página */
+ul.dropdown ul.dropdown-content {
+	position: absolute;
+}
+
+/* Las entradas de los menús se muestran en bloque */
+ul.dropdown ul.dropdown-content li {
+	display: block;
+}
+
+/* Eliminacion del indentado de las entradas de la lista */
+ul.dropdown ul.dropdown-content {
+	padding: 0px;
+}
+
+/* Espacio extra en las entradas del menú y borde */
+.dropdown li {
+	text-align: center;
+	padding: 2px 4px;
+}
+
+/*
+ * - Submenús opacos
+ * - Tamaño mínimo
+ * - Sombra para el submenu
+ */
+.dropdown-content {
+    background-color: #B79A28;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px 16px;
+    border-radius: 10px;
+}
+
+#menu5 {
+	float: right;
+	margin-right: 10px;
+}
+
+
+/*
+ * NOTA: Se utilizan múltiples reglas con el mismo selector para apreciar los cambios. Para un uso real de la CSS es recomendable utilizar una única regla para el mismo selector.
+ */
+
+/*
+ * Cambios:
+ * - Posicionamiento del diálogo centrado en la ventana.
+ * - Dimensionado de los elementos de diálogo.
+ * - Mostrar scroll si el contenido supera el tamaño máximo asignado.
+ * - Coloca el botón de cierre.
+ * - Coloca los botones del diálogo.
+ * - Mejora de la presentación del diálogo.
+ * - Oscurece el contenido de la página.
+ */
+ 
+.dialogo {
+	border: 3px solid black;
+}
+
+/* Espacio extra */
+.dialogo {
+	padding: 5px;
+}
+
+ /*
+  * Posicionamiento del diálogo centrado en la ventana. 
+  * margin-top: -(height / 2)
+  * margin-left: -(width / 2)
+	*/
+.dialogo {
+	position: fixed;
+	width: 400px;
+	height: 225px;
+	top: 50%;
+	left: 50%;
+  	margin-top: -100px;
+	margin-left: -200px;
+	border-radius: 20px;
+	border-color: #313165;
+
+	padding-border : 30px;
+	background-color: #313165;
+	
+	display: none;
+}
+
+/* Dimensionado de los elementos de diálogo. */
+.dialogo .cuerpo {
+	width: 100%;
+	height: 80%;
+
+}
+
+.dialogo .cabecera {
+	width: 100%;
+	height: 20%;
+}
+
+.dialogo .cuerpo .contenido {
+	width: 100%;
+	height: 80%;
+}
+
+.dialogo .cuerpo .botonera {
+	width: 100%;
+	height: 20%;
+}
+
+.dialogo .cabecera .titulo {
+	width: 90%;
+	height: 100%;
+}
+
+/* Mostrar scroll si el contenido supera el tamaño máximo asignado */
+.dialogo .cuerpo .contenido {
+	overflow: auto;
+}
+
+.dialogo .cabecera .titulo {
+	overflow: auto;
+	float: left;
+	color: white;
+}
+
+/* Coloca el botón de cierre. */
+.dialogo .cabecera button {
+	float: right;
+}
+
+/* Coloca los botones del diálogo. */
+.dialogo .cuerpo .botonera {
+	text-align: center;
+}
+
+/* Mejora de la presentación del diálogo. */
+.dialogo .cabecera .titulo {
+	text-align: center;
+	margin-top: 7%;
+}
+
+.dialogo {
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.8);
+	z-index: 2;
+}
+
+/* Oscurece el contenido de la página. */
+.oscurecer {
+  	position: fixed;
+	top: 0px;
+	left: 0px;
+  	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 1;
+	display: none
+}
+
+.bordesInteriores {
+	border-radius: 20px;
+	background-color: #BDC8EF;
+	height: 80%;
+	width: 100%;
+	text-align: center;
+	float: left;
+	clear: left;
+}
+
+.divSesionIzq {
+	float: left;
+	margin-top: 7%;
+	margin-left: 10%;
+	margin-top: 0%;
+}
+.divSesionDer {
+	float: right;
+	width: 70%;
+	margin-top: 0%;
+}
+
+.pSesion {
+	margin-top: 0px;
+	color: white;
+}
+
+#pass {
+	margin-top: 15px; 
+}
+
+.bttnLogin {
+	margin-top: 7%;
+	border-radius: 30px;
+	border-color: #8A4B08;
+	box-shadow: none;
+	color: white;
+	background-color: #313165;
+}
+
+#bttnX {
+	float: right;
+	background-color: #313165; 
+	border-style: none;
+	color: white;
+	margin-right: 2%;
+	margin-bottom: 7px;
+}
+
+
+.inputRedondeados {
+	border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+#colFiltros {
+	border-style: ridge;
+	text-align: center;
+	width: 25%;
+	float: left;
+	background-color: white;
+}
+#colPeliculas {
+	border-style: ridge;
+	width: 74%;
+	float: left;
+	background-color: white;
+}
+.imgPeli {
+	float: left;
+	max-width: 75px;
+	max-height: 100px;
+}
